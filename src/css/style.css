@@ -1,0 +1,32 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+.moi{
+    width: 8vw;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    cursor: crosshair;
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grille>div{
+    margin: auto;
+    margin-bottom: 8%;
+}
+
+.grille>.spinner-border{
+    grid-column: 2;
+}
+
+.toast{
+    display: block !important;
+}
